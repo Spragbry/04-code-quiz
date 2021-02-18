@@ -15,5 +15,126 @@ body {
 
 .header h1 {
     color: gold;
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-left: 0;
+}
 
+#scores.high-scores {
+    color: red;
+    margin-right: 20px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+#clock.time-clock {
+    color: red;
+    margin-right: 20px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.home-box {
+    max-width: 700px;
+    background-color: red;
+    margin: 70px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.question-container {
+    max-width: 700px;
+    background-color: red;
+    margin: 70px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.home-box p{
+    margin-bottom: 20px;
+    line-height: 10px;
+
+}
+
+.home-box button{
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.btn{
+    padding: 5px 5px;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.option-container{
+    padding: 2px 2px;
+    background-color: gold;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.goBack-button {
+    padding: 5px 5px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.finish-button {
+    padding: 5px 5px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quiz-box .question-number{
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    line-height: 25px;
+
+}
+.quiz-box .question-text{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.question-text {
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.option-container .option-A{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 80%;
+}
+.option-container .option-B{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 80%;
+}
+.option-container .option-C{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 80%;
+}
+.option-container .option-D{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 80%;
 }

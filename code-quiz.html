@@ -11,29 +11,41 @@
         <h1>Code Quiz Challenge</h1>
         <h3>Test your knowlege and face your friends on various coding trivia</h3>
     </div>
-    <div>   
-        <h2>View High Scores:</h2>
+    <div class="high-scores" id="scores">   
+        <h4>View High Scores:</h4>
     </div>
-    <div>
-        <h2>Time:</h2>
+    <div class="time-clock" id="clock">
+        <h4>Time:</h4>
+    </div> 
+    <div class= "home-box">
+        <p>Total number of questions:<span class="total-question">5</span></p>
+        <button type="button" class="btn">Start Quiz</button>
     </div>    
-    <div class= "Questions">
-        <h2>Question:</h2>
-        <h4>What does CSS stand for?</h4>
-            <ul>
-                <li>
-                    <button class="question-button" href="#search-engine-optimization">A</button>
-                </li>
-                <li>
-                    <button class="question-button" href="#online-reputation-management">B</button>
-                </li>
-                <li>
-                    <button class="question-button" href="#social-media-marketing">C</button>
-                </li>
-                <li>
-                    <button class="question-button" href="#social-media-marketing">D</button>
-                </li>
-            </ul>
+    <div class="question-container">
+    <div class="quiz-box">
+        <div class="question-number">
+            Question 1 of 5
+        </div>
+    </div>
+         <div class="question-text">
+             What does CSS stand for?
+         </div>
+        <div class="option-container">
+            <div class="option-A"><button>A</button> Coding Software Services</div>
+            <div class="option-B"><button>B</button> Cool String Stuff</div>
+            <div class="option-C"><button>C</button> Cats Smell Seasoning</div>
+            <div class="option-D"><button>D</button> Cascading Style Sheets</div>
+        </div>
+        <div class="next-question-btn">
+            <button type="button" class="btn">Next</button>
+            <button type="goBack-button" class="btn">Go Back</button>
+            <button type="finish-button" class="btn">Finish</button>
+        </div>
+        <div class="answers-indicator">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
     </div>
 </body> 
