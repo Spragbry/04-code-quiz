@@ -7,45 +7,40 @@
 </head>
 
 <body>
+    <script src="./code-quiz.js"></script>
     <div class="header">
         <h1>Code Quiz Challenge</h1>
         <h3>Test your knowlege and face your friends on various coding trivia</h3>
     </div>
-    <div class="high-scores" id="scores">   
-        <h4>View High Scores:</h4>
-    </div>
-    <div class="time-clock" id="clock">
+    <div id="timer-clock">
         <h4>Time:</h4>
     </div> 
     <div class= "home-box">
         <p>Total number of questions:<span class="total-question">5</span></p>
-        <button type="button" class="btn">Start Quiz</button>
+        <button type="button" id="startButton" class="btn">Start Quiz</button>
     </div>    
-    <div class="question-container">
+    <div id="question-container">
     <div class="quiz-box">
-        <div class="question-number">
-            Question 1 of 5
+    </div>
+         <div id="question-text">
+         </div>
+        <div id="option-container">
+        </div>
+        <div class="next-question-btn"> 
+            <button type="button" class="btn" id="next-button">Next</button>
+        </div>
+        <div id="answer-indicator"> 
+            <div id="correct-answer"> Correct ✅</div><div id="incorrect-answer">Incorrect ❌</div>
         </div>
     </div>
-         <div class="question-text">
-             What does CSS stand for?
-         </div>
-        <div class="option-container">
-            <div class="option-A"><button>A</button> Coding Software Services</div>
-            <div class="option-B"><button>B</button> Cool String Stuff</div>
-            <div class="option-C"><button>C</button> Cats Smell Seasoning</div>
-            <div class="option-D"><button>D</button> Cascading Style Sheets</div>
+    <div id="game-over">
+        <h1>GAME OVER!</h1>
+        <h3 id="score-text"></h3>
+        <div id="initials-container">
+            <h3>Enter Initials Here</h3>
+            <input type="text" id="initials-input">
+            <button type="button" id="submit-initials">Submit</button>
         </div>
-        <div class="next-question-btn">
-            <button type="button" class="btn">Next</button>
-            <button type="goBack-button" class="btn">Go Back</button>
-            <button type="finish-button" class="btn">Finish</button>
-        </div>
-        <div class="answers-indicator">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+        <div id="high-scores"></div>
     </div>
 </body> 

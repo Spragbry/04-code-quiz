@@ -21,7 +21,7 @@ body {
 }
 
 #scores.high-scores {
-    color: red;
+    color: whitesmoke;
     margin-right: 20px;
     position: absolute;
     top: 40px;
@@ -29,7 +29,7 @@ body {
 }
 
 #clock.time-clock {
-    color: red;
+    color: whitesmoke;
     margin-right: 20px;
     position: absolute;
     top: 20px;
@@ -38,17 +38,19 @@ body {
 
 .home-box {
     max-width: 700px;
-    background-color: red;
+    background-color:lightskyblue;
     margin: 70px auto;
     padding: 30px;
     border-radius: 10px;
 }
-.question-container {
+#question-container {
     max-width: 700px;
-    background-color: red;
+    background-color: lightskyblue;
     margin: 70px auto;
     padding: 30px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .home-box p{
     margin-bottom: 20px;
@@ -72,13 +74,33 @@ body {
     display: inline-block;
 }
 
-.option-container{
+#initials-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#game-over {
+    padding: 30px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+#initials-input {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#option-container{
     padding: 2px 2px;
     background-color: gold;
     color: black;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .goBack-button {
