@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+     <title>Code Quiz Challenge</title>
+    <link rel="stylesheet" href="./code-quiz.css">
+</head>
+
+<body>
+    <script src="./code-quiz.js"></script>
+    <div class="header">
+        <h1>Code Quiz Challenge</h1>
+        <h3>Test your knowlege and face your friends on various coding trivia</h3>
+    </div>
+    <div id="timer-clock">
+        <h4>Time:</h4>
+    </div> 
+    <div class= "home-box">
+        <p>Total number of questions:<span class="total-question">5</span></p>
+        <button type="button" id="startButton" class="btn">Start Quiz</button>
+    </div>    
+    <div id="question-container">
+    <div class="quiz-box">
+    </div>
+         <div id="question-text">
+         </div>
+        <div id="option-container">
+        </div>
+        <div class="next-question-btn"> 
+            <button type="button" class="btn" id="next-button">Next</button>
+        </div>
+        <div id="answer-indicator"> 
+            <div id="correct-answer"> Correct ✅</div><div id="incorrect-answer">Incorrect ❌</div>
+        </div>
+    </div>
+    <div id="game-over">
+        <h1>GAME OVER!</h1>
+        <h3 id="score-text"></h3>
+        <div id="initials-container">
+            <h3>Enter Initials Here</h3>
+            <input type="text" id="initials-input">
+            <button type="button" id="submit-initials">Submit</button>
+        </div>
+        <div id="high-scores"></div>
+    </div>
+</body> 
